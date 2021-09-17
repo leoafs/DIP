@@ -1,4 +1,4 @@
-# Real-ESRGAN: Training Real-World Blind Super-Resolution with Pure Synthetic Data
+# Towards Real-World Blind Face Restoration with Generative Facial Prior
 ## Resumo
 Embora muitas tentativas tenham sido feitas na superresolução cega para restaurar imagens de baixa resolução com degradações complexas e desconhecidas, elas ainda estão longe
 de abordar imagens degradadas do mundo real em geral,Neste trabalho, estendemos o método ESRGAN para uma aplicação
