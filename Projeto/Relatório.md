@@ -21,3 +21,5 @@ As características latentes são usadas para mapear a imagem de entrada para o 
 
 ## Testes Particulares
 ![1](https://user-images.githubusercontent.com/32283837/133941083-536b88e4-a33c-4330-bc25-68680cc7725d.png)
+![image](https://user-images.githubusercontent.com/32283837/133941114-8fcb0562-6252-4c42-9c8e-d03669b69909.png)
+
