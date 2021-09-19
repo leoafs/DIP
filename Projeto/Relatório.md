@@ -20,4 +20,4 @@ As características latentes são usadas para mapear a imagem de entrada para o 
 * Perda de preservação de identidade.
 
 ## Testes Particulares
-![GFPGAN output](https://user-images.githubusercontent.com/32283837/133940891-61cc47cb-29b2-4ffd-9561-41ee7fbfe7d6.png)
+
