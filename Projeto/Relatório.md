@@ -8,6 +8,12 @@ A tarefa altamente desafiadora de estimar uma imagem de alta resolução (HR) a 
 
 ## Objetivo
 Neste estudo, aproveitamos Prioridade facial generativa (GFP) para restauração de rosto cego no mundo real, que consiste em gerar uma imagem de alta resolução (HR) a partir de sua contraparte de baixa resolução (LR), ou seja, dada uma imagem X que sofre uma degradação desconhecida, o objetivo é estimar uma imagem de alta qualidade ŷ, que é o mais semelhante possível à imagem da verdade fundamental y, em termos de realidade e fidelidade.
+## Outras Soluções
+O GFP-GAN foi comparado com vários métodos de restauração de rosto de última geração como HiFaceGAN , DFDNet e PSFRGAN. 
+![PDI](https://user-images.githubusercontent.com/32283837/133941372-1a8bc17d-0f83-4ce0-9041-f372acf47a19.png)
+Também foi comparado com métodos de restauração de imagem: RCAN , ESRGAN  e DeblurGANv2
+![PDI2](https://user-images.githubusercontent.com/32283837/133941385-1fa848cf-0ed2-4d4f-a824-d88c1281bc6b.png)
+
 ## Metodologia
 O GFP-GAN é composto por um módulo de remoção de degradação (UNet) e um GAN de face pré-treinado (Style-GAN2 ), Eles são interligados por um mapeamento de código latente e várias camadas Channel-Split Spatial Feature Transform (CS-SFT).Especificamente, o módulo de remoção de degradação é projetado para remover degradação complicada e extrair dois tipos de recursos:
 1. Características latentes
