@@ -7,5 +7,10 @@ realidade e fidelidade.
 A tarefa altamente desafiadora de estimar uma imagem de alta resolução (HR) a partir de sua contraparte de baixa resolução (LR) é conhecida como super-resolução (SR).Quando tiramos uma foto com nossos celulares, as fotos podem ter várias degradações ou ruidos, como por exemplo desfoque da câmera, ruído do sensor, artefatos de nitidez e compactação JPEG, edições e carregamento em  mídias sociais, o que gera mais compressão e ruídos que são imprevisíveis. Super resolução cega visa restaurar imagens de baixa resolução que sofrem de degradações desconhecidas e complexas.
 ## Objetivo
 Neste estudo, aproveitamos Prioridade facial generativa (GFP) para restauração de rosto cego no mundo real, que consiste em gerar uma imagem de alta resolução (HR) a partir de sua contraparte de baixa resolução (LR), ou seja, dada uma imagem X que sofre uma degradação desconhecida, o objetivo é estimar uma imagem de alta qualidade ŷ, que é o mais semelhante possível à imagem da verdade fundamental y, em termos de realidade e fidelidade.
-
+## Metodologia
+O GFP-GAN é composto por um módulo de remoção de degradação (UNet) e um GAN de face pré-treinado (Style-GAN2 ), Eles são interligados por um mapeamento de código latente e várias camadas Channel-Split Spatial Feature Transform (CS-SFT).Especificamente, o módulo de remoção de degradação é projetado para remover degradação complicada e extrair dois tipos de recursos:
+### 1 Características latentes
+### 2 Recursos espaciais de multi-resolução
+Recursos espaciais de multi-resolução
+As características latentes são usadas para mapear a imagem de entrada para o código latente mais próximo no StyleGAN2  os  características espaciais  são usados para modular os recursos do StyleGAN2.
 
