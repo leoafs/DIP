@@ -14,8 +14,8 @@ O GFP-GAN é composto por um módulo de remoção de degradação (UNet) e um GA
 2. Recursos espaciais de multi-resolução
 As características latentes são usadas para mapear a imagem de entrada para o código latente mais próximo no StyleGAN2  as  características espaciais  são usados para modular os recursos do StyleGAN2.
 ## O objetivo de aprendizagem de treinar o GFP-GAN consiste em: 
-Perda de reconstrução que restringe os resultados ŷ perto da verdade fundamental y.
-Perda adversária para restaurar texturas realistas
-Perda de componente facial proposta para melhorar ainda mais os detalhes faciais.
-Perda de preservação de identidade.
+* Perda de reconstrução que restringe os resultados ŷ perto da verdade fundamental y.
+* Perda adversária para restaurar texturas realistas
+**Perda de componente facial proposta para melhorar ainda mais os detalhes faciais.
+**Perda de preservação de identidade.
 
