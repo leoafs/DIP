@@ -16,6 +16,6 @@ As características latentes são usadas para mapear a imagem de entrada para o 
 ## O objetivo de aprendizagem de treinar o GFP-GAN consiste em: 
 * Perda de reconstrução que restringe os resultados ŷ perto da verdade fundamental y.
 * Perda adversária para restaurar texturas realistas
-**Perda de componente facial proposta para melhorar ainda mais os detalhes faciais.
-**Perda de preservação de identidade.
+* Perda de componente facial proposta para melhorar ainda mais os detalhes faciais.
+* Perda de preservação de identidade.
 
