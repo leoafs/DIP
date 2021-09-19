@@ -20,5 +20,4 @@ As características latentes são usadas para mapear a imagem de entrada para o 
 * Perda de preservação de identidade.
 
 ## Testes Particulares
-![Input/Output](https://user-images.githubusercontent.com/32283837/133941032-44a44b63-f31d-4690-9ffa-0731a1ea1c69.png)
-
+![1](https://user-images.githubusercontent.com/32283837/133941083-536b88e4-a33c-4330-bc25-68680cc7725d.png)
