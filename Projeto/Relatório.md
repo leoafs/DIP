@@ -11,6 +11,5 @@ Neste estudo, aproveitamos Prioridade facial generativa (GFP) para restauração
 O GFP-GAN é composto por um módulo de remoção de degradação (UNet) e um GAN de face pré-treinado (Style-GAN2 ), Eles são interligados por um mapeamento de código latente e várias camadas Channel-Split Spatial Feature Transform (CS-SFT).Especificamente, o módulo de remoção de degradação é projetado para remover degradação complicada e extrair dois tipos de recursos:
 ### 1 Características latentes
 ### 2 Recursos espaciais de multi-resolução
-Recursos espaciais de multi-resolução
-As características latentes são usadas para mapear a imagem de entrada para o código latente mais próximo no StyleGAN2  os  características espaciais  são usados para modular os recursos do StyleGAN2.
+As características latentes são usadas para mapear a imagem de entrada para o código latente mais próximo no StyleGAN2  as  características espaciais  são usados para modular os recursos do StyleGAN2.
 
