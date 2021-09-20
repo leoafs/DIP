@@ -30,3 +30,8 @@ As características latentes são usadas para mapear a imagem de entrada para o 
 ![2](https://user-images.githubusercontent.com/32283837/133941124-f25ec68f-3ddc-4f35-a1e9-9c78840c2186.png)
 ![3](https://user-images.githubusercontent.com/32283837/133941181-1e4ee2a9-4cd5-45d9-a161-08ba729056bc.png)
 
+## Conclusão
+As comparações demonstram a grande capacidade do GFP-GAN na restauração da face da articulação e no aprimoramento da cor para imagens do
+mundo real, superando algumas técnicas,  permitindo-nos alcançar um bom equilíbrio entre realidade e fidelidade
+## Referências
+(https://paperswithcode.com/paper/real-esrgan-training-real-world-blind-super#code)
